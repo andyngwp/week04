@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wk04: Simple Source Set Demo</title>
+    <style>
+      img {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      srcset="
+        https://picsum.photos/400/400.jpg,
+        https://picsum.photos/600/600     1.5x,
+        https://picsum.photos/800/800     2x
+      "
+      src="https://picsum.photos/400/400.jpg"
+      alt="Elva dressed as a fairy"
+    />
+  </body>
+</html>
